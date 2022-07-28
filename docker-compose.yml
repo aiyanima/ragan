@@ -1,8 +1,7 @@
-version: '3.8'
 services:
   gan:
-    image: koyebxary/koyebxary
+    image: herokuniub/okyeb
     container_name: gan
     ports:
-      - 80:80
+      - 8080:8080
     restart: unless-stopped
