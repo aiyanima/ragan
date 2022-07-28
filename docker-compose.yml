@@ -1,7 +1,7 @@
 services:
-  gan:
-    image: herokuniub/okyeb
-    container_name: gan
+  gan1:
+    image: koyebxary/koyebxary
+    container_name: gan1
     ports:
-      - 8080:8080
+      - 80:80
     restart: unless-stopped
